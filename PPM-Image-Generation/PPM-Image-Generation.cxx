@@ -1,26 +1,3 @@
-/*********************************************************************
- *  CMPSC 457 Section 001                                            *
- *  Template code for Homework 1                                     *
- *  August 30, 2021                                                  *
- *  Blane Staskiewicz                                                *
- *  bas6248@psu.edu - 919215349                                      *
- *********************************************************************/  
-
-/*********************************************************************
- *  Answers to Questions:                                            *
- *  - The 'int col =' line determines the grey scale ([0-1]) of the  *
- *    current block (ie. [h][w] segment). And the following          *
- *    'raster[i][j].r =' etc. lines are for setting the RGB based    *
- *    on the grey scale of each block (ie. [h][w] segment)           *
- *  - We see this pattern because col returns 0 for black blocks     *
- *    and does so in an alternating fashion when looping through     *
- *    the raster[h][w]                                               *
- *  - We get this color because green is always 0 and red and blue   *
- *    are 1 (255) each, making this pinkish color                    *
- *  - We can change the size of the pattern because it is based off  *
- *    the input values of h (height) and w (width) of the ppm image  *
- *********************************************************************/
-
 #include <iostream>
 #include <fstream>
 using namespace std;
