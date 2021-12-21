@@ -3,7 +3,7 @@
 In this assignment, I created a simple ray tracer. This ray tracer generates a PPM formated image of three spheres.
 
 <p align="center">
-<img src="RayTracing500x500.png" width="750">
+<img src="RayTracing500x500.png" width="600">
 </p>
 
 
