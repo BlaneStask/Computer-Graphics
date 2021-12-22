@@ -34,3 +34,18 @@ for (int j = 0; j < ny; j++) {
     fout<<"\n";
 }
 ```
+
+### Usage:
+
+Use the following commands on your shell:
+```bash
+make template
+make clean
+```
+to compile the program and to delete unnecessary files.
+
+Use following commands to run the program:
+```bash
+./template nx ny outfile.ppm
+```
+where nx and ny are the width and height of the image to be generated and outfile.ppm is the file name.
