@@ -1,10 +1,10 @@
 # Applying Matrix Transformations
-In this assignment, I worked on different transformations for a 3D model of a house. These transformations include: rotate, scale and translate in xy and xz planes.
+In this assignment, I worked on different transformations for a 3D model of a house for Orthographic and Perspective projections. These transformations include: rotate, scale and translate in xy and xz planes.
 
 ## Demo
 
 <p align="center">
-<img src="transformations_demo.gif" width="280" height="550"/>
+<img src="transformations_demo.gif" width="450" height="500"/>
 </p>
 
 ### Usage:
